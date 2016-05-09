@@ -1,0 +1,27 @@
+{
+  "name": "group",
+  "homepage": "https://github.com/Elicacio/group",
+  "authors": [
+    "Elicacio C. de Farias <elicaciocardoso@gmail.com>"
+  ],
+  "description": "app para agregar paginas corporativas",
+  "main": "group",
+  "keywords": [
+    "group",
+    "agregador",
+    "corporativo"
+  ],
+  "license": "GNU General Public License v3.0",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "toolkit": "*",
+    "jquery": "^2.2.3"
+  }
+}
