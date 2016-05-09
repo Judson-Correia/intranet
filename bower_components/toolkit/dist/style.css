@@ -22,10 +22,24 @@
 #section .grid .col h1 {
   text-align: center;
   margin:0;
-  font-size: 15px;
+  font-size: 18px;
+  font-family: "ubuntu";
+}
+#section .grid .col p {
+  text-align: center;
+  font-family: "ubuntu";
+  width:75%;
+  margin: 17px auto;
+  color:#3e3e3e;
+
 }
 #section .grid .col img {
   height: 115px;
+}
+#section .grid .col figure {
+  height: 115px;
+  width:115px;
+  margin:40px auto;
 }
 #footer {
   margin-top: 1.3em;
@@ -36,16 +50,10 @@
   height: 14px;
   margin-top: 14em;
   text-align: center;
+
 }
 
 @font-face {
-  font-family: 'ubuntu';
-  src: local('../../../fonts/Ubuntu-bold.ttf');
-  src: local('../../../fonts/Ubuntu-BoldItalic.ttf');
-  src: local('../../../fonts/Ubuntu-italic.ttf');
-  src: local('../../../fonts/Ubuntu-light.ttf');
-  src: local('../../../fonts/Ubuntu-LightItalic.ttf');
-  src: local('../../../fonts/Ubuntu-Medium.ttf');
-  src: local('../../../fonts/Ubuntu-MediumItalic.ttf');
-  src: local('../../../fonts/Ubuntu-Regular.ttf');
+  font-family: 'ubuntu-regular';
+  src: url('../../../fonts/Ubuntu-Regular.ttf') format ('truetype');
 }
