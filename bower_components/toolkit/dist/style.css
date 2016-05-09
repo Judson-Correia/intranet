@@ -22,7 +22,7 @@
 #section .grid .col h1 {
   text-align: center;
   margin:0;
-  font-size: 18px;
+  font-size: 20px;
   font-family: "ubuntu";
 }
 #section .grid .col p {
@@ -37,7 +37,7 @@
   height: 115px;
 }
 #section .grid .col figure {
-  height: 115px;
+  height: 100px;
   width:115px;
   margin:40px auto;
 }
